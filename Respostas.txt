@@ -4,3 +4,5 @@
 2)
 
 A) Espera-se que seja chamado o construtor da classe Animal, depois o construtor da casse Mamal, seguido do construtor da classe Animal novamente e do construtor da classe WingedAnimal. 
+
+B) O compilador aponta um erro intitulado " 'Animal' is am ambiguous base of of 'Bat'". Isso ocorre porque existem duas classes (Mammal e WingedAnimal) que herdam da classe base (Animal). E quando é criado a quarta classe (Bat), acabam sendo gerado dois "caminhos" até a classe base, uma pssando pela classe Mammal e outra pela classe WingedAnimal. Isso gera uma ambiguidade, como no erro mostrado pelo compilador. 
