@@ -1,1 +1,6 @@
-,
+1)
+
+
+2)
+
+A) Espera-se que seja chamado o construtor da classe Animal, depois o construtor da casse Mamal, seguido do construtor da classe Animal novamente e do construtor da classe WingedAnimal. 
