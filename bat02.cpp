@@ -26,6 +26,6 @@ class Bat : public Mammal, public WingedAnimal {
 
 int main() {
 	Bat bat;
-     Bat *mammal = static_cast<Bat*>(mammal);
+        Bat *mammal = static_cast<Bat*>(mammal);
 
 }
