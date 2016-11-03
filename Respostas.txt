@@ -6,3 +6,9 @@
 A) Espera-se que seja chamado o construtor da classe Animal, depois o construtor da casse Mamal, seguido do construtor da classe Animal novamente e do construtor da classe WingedAnimal. 
 
 B) O compilador aponta um erro intitulado " 'Animal' is am ambiguous base of of 'Bat'". Isso ocorre porque existem duas classes (Mammal e WingedAnimal) que herdam da classe base (Animal). E quando é criado a quarta classe (Bat), acabam sendo gerado dois "caminhos" até a classe base, uma pssando pela classe Mammal e outra pela classe WingedAnimal. Isso gera uma ambiguidade, como no erro mostrado pelo compilador. 
+
+C) O código desta letra encontra-se no arquivo bat02.cpp
+
+D) Quando utilizamos a noção de base virutal, a ambiguidade é retirada e o programa compila normalmente e o construtor da classe Animal é executado apenas uma vez. 
+
+E) Não porque a classe Mammal não possui uma função chamada Flap, nem acesso a alguma função chamada Flap.
