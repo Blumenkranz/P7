@@ -20,3 +20,7 @@ A) Uma função amiga (friend function) é declarada dentro do escopo da classe 
 B) De fato, uma função amiga, apesar de ser definida dentro do escopo de uma classe, não é considerada uma função membro da classe. Funções e classes amigas servem, entre outras coisas, para que possamos ter acesso aos dados de outras classes para realizar certos objetivos. O código da questão 3 nos mostra um bom uso de uma função amiga, pois cria uma friend function para estabelecer novos valores de um objeto e retorná-lo como argumento para um objeto criado na função main. 
 
 C) Se descomentarmos a linha 13, a função Rectangle não será mais considerada uma função amiga e não poderá ter acesso aos membros privados da classe (tais como width e height). 
+
+4) 
+
+
