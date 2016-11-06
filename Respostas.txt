@@ -27,4 +27,5 @@ A) a linha 6 do código serve para declarar que existe uma classe chamada Square
 
 B) A linha 13 contém a declaração de uma função que recebe como parâmetro um argumento do tipo Square. Como a função Square não foi desenvolvida previamente, é necessário que as declarações na linha 6 sejam feitas, para que assim o compilador saiba que existe uma classe Square. 
 
+C) A relação de amizade em C++ é transitiva e não simétrica, pois se uma classe A é amiga de uma classe B, isso não significa que uma classe B seja amiga de A. 
 
