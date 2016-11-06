@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Rectanble {
+class Rectangle {
 private:
 	int width, height;
 public:
