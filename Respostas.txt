@@ -12,3 +12,11 @@ C) O código desta letra encontra-se no arquivo bat02.cpp. Desta vez, o código 
 D) O código desta letra encontra-se no arquivo bat03.cpp. Quando utilizamos a noção de base virutal, a ambiguidade é retirada e o programa compila normalmente e o construtor da classe Animal é executado apenas uma vez. 
 
 E) Não porque a classe Mammal não possui uma função chamada Flap, nem acesso a alguma função chamada Flap.
+
+3)
+
+A) Uma função amiga (friend function) é declarada dentro do escopo da classe e definida fora do escopo da classe, mas tem o direito de acessar todos os membros publicos e privados da classe. Funções amigas não são consideradas funções membro. Uma classe amiga em C++ pode acessar os membros privados (keyword private) e protegidos (keyword protected) da classe em que ela é declarada como amiga. 
+
+B) De fato, uma função amiga, apesar de ser definida dentro do escopo de uma classe, não é considerada uma função membro da classe. Funções e classes amigas servem, entre outras coisas, para que possamos ter acesso aos dados de outras classes para realizar certos objetivos. O código da questão 3 nos mostra um bom uso de uma função amiga, pois cria uma friend function para estabelecer novos valores de um objeto e retorná-lo como argumento para um objeto criado na função main. 
+
+C) Se descomentarmos a linha 13, a função Rectangle não será mais considerada uma função amiga e não poderá ter acesso aos membros privados da classe (tais como width e height). 
