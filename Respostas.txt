@@ -39,4 +39,12 @@ B)
 
 A) O código desta questão se encontra no arquivo list0901v2.cpp
 
-B) Salvamos o novo código, testamos e achamos incrível como a printagem dos elementos do vector data foi simplificada por meio do loop for baseado em escala (range-based). 
+B) Salvamos o novo código, testamos e achamos interessante como a printagem dos elementos do vector data foi simplificada por meio do loop for baseado em escala (range-based). 
+
+7) 
+
+A) O código foi lido e entendido pelo grupo.
+
+B) O código deste item se encontra no arquivo list1004.cpp
+
+C) O código deste item se encontra no arquivo list1005.cpp 
