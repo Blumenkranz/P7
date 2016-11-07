@@ -29,3 +29,10 @@ B) A linha 13 contém a declaração de uma função que recebe como parâmetro 
 
 C) A relação de amizade em C++ é transitiva e não simétrica, pois se uma classe A é amiga de uma classe B, isso não significa que uma classe B seja amiga de A. 
 
+5)
+
+6)
+
+A) O código desta questão se encontra no arquivo list0901v2.cpp
+
+B) Salvamos o novo código, testamos e achamos incrível como a printagem dos elementos do vector data foi simplificada por meio do loop for baseado em escala (range-based). 
