@@ -31,6 +31,10 @@ C) A relação de amizade em C++ é transitiva e não simétrica, pois se uma cl
 
 5)
 
+A) A linha 12 contém a função assert, cuja utilidade é a de mostrar uma mensagem de erro e terminar o programa caso a declaração usada seja falsa. 
+
+B)
+
 6)
 
 A) O código desta questão se encontra no arquivo list0901v2.cpp
