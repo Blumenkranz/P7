@@ -6,16 +6,14 @@
 int main(){
     std::vector<int> data{};
     int x{};
-    int count(0);
     // initialized to be empty
     // Read integers one at a time.
-    while (std::cin >> x and count<3)
+    while (std::cin >> x)
     {
 
     data.push_back(x);
-    count++;
-    if (count==3)
-        break;
+    if (data.size() == 3)
+    	break;
     }
 
     // Print the vector, one number per line.
