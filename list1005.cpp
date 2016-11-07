@@ -22,10 +22,10 @@ int main(){
     {
         std::cout << data.at(i);
         std::cout.fill (' ');
-        std::cout.width (10);
+        std::cout.width (4);
         std::cout << data.at(i)*2;
         std::cout.fill(' ');
-        std::cout.width (10);
+        std::cout.width (4);
         std::cout << data.at(i)*data.at(i);
         std::cout << "\n";
     }
