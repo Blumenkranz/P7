@@ -52,3 +52,7 @@ C) O código deste item se encontra no arquivo list1005.cpp
 8)
 
 Este programa armazena em um vetor números digitados pelo usuário e, depois, inverte a ordem com que os números foram inseridos no vetor e os mostra na tela. 
+
+10)
+
+O código desta questão se encontra no arquivo list1501v3.cpp
